@@ -1,8 +1,12 @@
 .home-header-container {
     height: 60px;
-    border: 1px solid red;
+    // border: 1px solid red;
     width: 100%;
     padding: 0 40px;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    background: white;
 
     .home-header-content {
         width: 100%;
@@ -145,7 +149,8 @@
         }
     }
     .content-down {
-        // padding: 60px;
+        height: 35%;
+        padding-bottom: 10px;
         display: flex;
         align-items: flex-end;
         justify-content: center;
