@@ -15,9 +15,9 @@ class About extends Component {
                         <iframe width="100%" height="400"
                             src="https://www.youtube.com/embed/P8YPa-PQidk"
                             title="Sức khỏe  và cuộc sống: Chăm sóc sức khỏe người cao tuổi"
-                            frameborder="0"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen>
+                            allowFullScreen>
                         </iframe>
                     </div>
                     <div className='content-right'>
