@@ -19,6 +19,7 @@ class App extends Component {
 
     handlePersistorState = () => {
         const { persistor } = this.props;
+        console.log("persistor", persistor);
         let { bootstrapped } = persistor.getState();
         if (bootstrapped) {
             if (this.props.onBeforeLift) {

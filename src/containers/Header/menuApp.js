@@ -25,10 +25,10 @@ export const adminMenu = [
         ]
     },
     { //QL chuyên khoa
-        name: 'menu.admin.specialty', 
+        name: 'menu.admin.speciality', 
         menus: [
             {
-                name: 'menu.admin.manage-specialty', link: '/system/manage-specialty' 
+                name: 'menu.admin.manage-speciality', link: '/system/manage-speciality' 
             },
         ]
     },
