@@ -1,7 +1,7 @@
 import axios from '../axios';
 
 const handleLoginApi = (email, password) => {
-    return axios.post('/api/login', {email, password});
+    return axios.post('/api/login', { email, password });
 }
 
 const getAllUsers = (inputId) => {
@@ -14,11 +14,15 @@ const createNewUser = (data) => {
 }
 
 const deleteUser = (id) => {
-    return axios.delete(`/api/delete-user`, {data: {id}})
+    return axios.delete(`/api/delete-user`, { data: { id } })
 }
 
 const editUser = (data) => {
     return axios.put(`/api/edit-user`, data)
 }
 
-export { handleLoginApi, getAllUsers, createNewUser, deleteUser, editUser };
+const getAllCodeService = (inputType) => {
+    return axios.get(`/api/allcode?type=${inputType}`);
+}
+
+export { handleLoginApi, getAllUsers, createNewUser, deleteUser, editUser, getAllCodeService };

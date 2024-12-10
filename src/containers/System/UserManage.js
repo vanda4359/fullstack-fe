@@ -102,7 +102,7 @@ class UserManage extends Component {
         let arrUsers = this.state.arrUsers;
         return (
             <div className="users-container">
-                <div className="title text-center">Manage users with vanda</div>
+                <div className="title text-center">User management</div>
                 <div className="mx-1">
                     <button
                         className='btn btn-primary px-3'
