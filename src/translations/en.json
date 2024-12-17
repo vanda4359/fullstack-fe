@@ -1,53 +1,54 @@
 {
-    "homeheader": {
-        "speciality": "Medical speciality",
-        "searchDoctor": "Find a doctor speciality",
-        "health-facility": "Health facilities",
-        "select-room": "Choose hospital clinic",
-        "doctor": "Doctor",
-        "select-doctor": "Choose a good doctor",
-        "fee": "checkup package",
-        "check-health": "Garenal health check",
-        "support": "Support",
-        "welcome": "Welcome, "
-    },
-    "banner": {
-        "title1": "MEDICAL BACKGROUND",
-        "title2": "COMPREHENSIVE HEALTH CARE",
-        "child1": "Specialized examination",
-        "child2": "Remote examination",
-        "child3": "General examination",
-        "child4": "Medical tests",
-        "child5": "Mental health",
-        "child6": "Dental examination"
-    },
-    "menu": {
-        "admin": {
-            "manage-user": "User System",
-            "manage-doctor": "Manage doctors",
-            "manage-admin": "Manage admins",
-            "crud": "CRUD User",
-            "crud-redux": "CRUD Redux",
-            "clinic": "Clinics",
-            "manage-clinic": "Manage clinics",
-            "speciality": "specialities",
-            "manage-speciality": "Manage specialities",
-            "handbook": "handbook",
-            "manage-handbook": "Manage handbook"
-        }
-    },
-    "manage-user": {
-        "add": "Add User",
-        "email": "Email",
-        "password": "Password",
-        "firstName": "First name",
-        "lastName": "Last name",
-        "phoneNumber": "Phone number",
-        "address": "Address",
-        "gender": "Gender",
-        "position": "Position",
-        "roleId": "Role",
-        "image": "Image",
-        "save": "Save"
+  "homeheader": {
+    "speciality": "Medical speciality",
+    "searchDoctor": "Find a doctor speciality",
+    "health-facility": "Health facilities",
+    "select-room": "Choose hospital clinic",
+    "doctor": "Doctor",
+    "select-doctor": "Choose a good doctor",
+    "fee": "checkup package",
+    "check-health": "Garenal health check",
+    "support": "Support",
+    "welcome": "Welcome, "
+  },
+  "banner": {
+    "title1": "MEDICAL BACKGROUND",
+    "title2": "COMPREHENSIVE HEALTH CARE",
+    "child1": "Specialized examination",
+    "child2": "Remote examination",
+    "child3": "General examination",
+    "child4": "Medical tests",
+    "child5": "Mental health",
+    "child6": "Dental examination"
+  },
+  "menu": {
+    "admin": {
+      "manage-user": "User System",
+      "manage-doctor": "Manage doctors",
+      "manage-admin": "Manage admins",
+      "crud": "CRUD User",
+      "crud-redux": "CRUD Redux",
+      "clinic": "Clinics",
+      "manage-clinic": "Manage clinics",
+      "speciality": "specialities",
+      "manage-speciality": "Manage specialities",
+      "handbook": "handbook",
+      "manage-handbook": "Manage handbook"
     }
+  },
+  "manage-user": {
+    "add": "Add User",
+    "email": "Email",
+    "password": "Password",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phoneNumber": "Phone number",
+    "address": "Address",
+    "gender": "Gender",
+    "position": "Position",
+    "roleId": "Role",
+    "image": "Image",
+    "save": "Save",
+    "edit": "Edit"
+  }
 }
