@@ -1,28 +1,40 @@
-import axios from '../axios';
+import axios from "../axios";
 
 const handleLoginApi = (email, password) => {
-    return axios.post('/api/login', { email, password });
-}
+  return axios.post("/api/login", { email, password });
+};
 
 const getAllUsers = (inputId) => {
-    // template string
-    return axios.get(`/api/get-all-users?id=${inputId}`);
-}
+  // template string
+  return axios.get(`/api/get-all-users?id=${inputId}`);
+};
 
 const createNewUser = (data) => {
-    return axios.post(`/api/create-new-user`, data)
-}
+  return axios.post(`/api/create-new-user`, data);
+};
 
 const deleteUser = (id) => {
-    return axios.delete(`/api/delete-user`, { data: { id } })
-}
+  return axios.delete(`/api/delete-user`, { data: { id } });
+};
 
 const editUser = (data) => {
-    return axios.put(`/api/edit-user`, data)
-}
+  return axios.put(`/api/edit-user`, data);
+};
 
 const getAllCodeService = (inputType) => {
-    return axios.get(`/api/allcode?type=${inputType}`);
-}
+  return axios.get(`/api/allcode?type=${inputType}`);
+};
 
-export { handleLoginApi, getAllUsers, createNewUser, deleteUser, editUser, getAllCodeService };
+const getTopDoctorHomeService = (limit) => {
+  return axios.get(`/api/top-doctor-home?limit=${limit}`);
+};
+
+export {
+  handleLoginApi,
+  getAllUsers,
+  createNewUser,
+  deleteUser,
+  editUser,
+  getAllCodeService,
+  getTopDoctorHomeService,
+};

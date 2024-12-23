@@ -1,168 +1,170 @@
 .slick-prev {
-    left: -10px !important;
-    z-index: 1000 !important;
-    height: 48px !important;
-    width: 44px !important;
-    background: #fff !important;
-    border: 2px solid #d7d7d7 !important;
-    &:hover {
-        background: #eceaea;
-    }
+  left: -10px !important;
+  z-index: 1000 !important;
+  height: 48px !important;
+  width: 44px !important;
+  background: #fff !important;
+  border: 2px solid #d7d7d7 !important;
+  &:hover {
+    background: #eceaea;
+  }
 }
 
 .slick-prev::before,
 .slick-next::before {
-    font-family: FontAwesome !important;
-    color: red !important;
+  font-family: FontAwesome !important;
+  color: red !important;
 }
 
 .slick-next {
-    right: -10px !important;
-    z-index: 1000 !important;
-    height: 48px !important;
-    width: 44px !important;
-    background: #fff !important;
-    border: 2px solid #d7d7d7 !important;
-    &:hover {
-        background: #eceaea;
-    }
+  right: -10px !important;
+  z-index: 1000 !important;
+  height: 48px !important;
+  width: 44px !important;
+  background: #fff !important;
+  border: 2px solid #d7d7d7 !important;
+  &:hover {
+    background: #eceaea;
+  }
 }
 
 .section-share {
-    &.section-specialty {
-        background: #f5f5f5;
-    }
+  &.section-specialty {
+    background: #f5f5f5;
+  }
 
-    &.section-outstanding-doctor {
-        background: #f5f5f5;
-    }
+  &.section-outstanding-doctor {
+    background: #f5f5f5;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
 
-    &.section-about {
-        height: 500px;
-        border-bottom: 1px solid #f5f5f5;
-        border-top: 1px solid #f5f5f5;
-    }
+  &.section-about {
+    height: 500px;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+  }
 
-    .section-body {
-        .section-customize {
-            .bg-image {
-                width: 278px;
-                height: 150px;
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-color: #eee;
+  .section-body {
+    .section-customize {
+      .bg-image {
+        width: 278px;
+        height: 150px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #eee;
 
-                &.section-specialty {
-                    background-image: url('../../assets/specialty/kham-xuong-khop.jpg');
-                }
-
-                &.section-medical-facility {
-                    background-image: url('../../assets/medical-facility/benh-vien.jpg');
-                }
-
-                &.section-outstanding-doctor {
-                    background-image: url('../../assets/outstanding-doctor/chuyen-gia.jpg');
-                    width: 120px;
-                    height: 120px;
-                    border-radius: 50%;
-                }
-
-                &.section-handbook {
-                    background-image: url('../../assets/handbook/kham-suc-khoe-tong-quat.jpg');
-                }
-            }
+        &.section-specialty {
+          background-image: url("../../assets/specialty/kham-xuong-khop.jpg");
         }
-    }
 
+        &.section-medical-facility {
+          background-image: url("../../assets/medical-facility/benh-vien.jpg");
+        }
+
+        &.section-outstanding-doctor {
+          background-image: url("../../assets/outstanding-doctor/chuyen-gia.jpg");
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+        }
+
+        &.section-handbook {
+          background-image: url("../../assets/handbook/kham-suc-khoe-tong-quat.jpg");
+        }
+      }
+    }
+  }
 }
 
 .section-share {
-    height: 330px;
+  height: 330px;
 
-    .section-container {
-        width: 1170px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
+  .section-container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 
-        .section-header {
-            height: 60px;
-            margin-bottom: 30px;
-            padding-top: 30px;
+    .section-header {
+      height: 60px;
+      margin-bottom: 30px;
+      padding-top: 30px;
 
-            .title-section {
-                font-size: 22px;
-                font-weight: 600;
-            }
+      .title-section {
+        font-size: 22px;
+        font-weight: 600;
+      }
 
-            .btn-section {
-                float: right;
-                padding: 10px 15px;
-                border: none;
-                outline: none;
-                display: block;
-                background: #ebebeb;
-                color: black;
-                cursor: pointer;
-                text-transform: uppercase;
+      .btn-section {
+        float: right;
+        padding: 10px 15px;
+        border: none;
+        outline: none;
+        display: block;
+        background: #ebebeb;
+        color: black;
+        cursor: pointer;
+        text-transform: uppercase;
 
-                &:hover {
-                    color: #fff;
-                    background: #f7d800;
-                }
-            }
+        &:hover {
+          color: #fff;
+          background: #f7d800;
         }
+      }
     }
+  }
 }
 
 .section-outstanding-doctor {
-    .outer-bg {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 10px;
-    }
+  .outer-bg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
 
-    .section-customize {
-        padding: 5px;
+  .section-customize {
+    padding: 5px;
 
-        .customize-border {
-            border: 1px solid orange;
-            padding: 20px;
-        }
+    .customize-border {
+      border: 1px solid orange;
+      padding: 20px;
     }
+  }
 }
 
 .home-footer {
-    text-align: center;
-    padding-top: 8px;
-    a {
-        text-decoration: unset;
-    }
+  text-align: center;
+  padding-top: 8px;
+  a {
+    text-decoration: unset;
+  }
 }
 
 .section-about {
-    width: 1170px;
-    margin: 0 auto;
-    .section-about-header {
-        padding: 20px 10px;
-        font-size: 22px;
-        font-weight: 600;
+  width: 1170px;
+  margin: 0 auto;
+  .section-about-header {
+    padding: 20px 10px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .section-about-content {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    .content-left {
+      width: 50%;
     }
-    .section-about-content {
-        display: flex;
-        gap: 20px;
-        width: 100%;
-        .content-left {
-            width: 50%;
-        }
 
-        .content-right {
-            width: 50%;
-            p {
-                text-align: justify;
-                padding: 15px;
-            }
-        }
+    .content-right {
+      width: 50%;
+      p {
+        text-align: justify;
+        padding: 15px;
+      }
     }
+  }
 }
